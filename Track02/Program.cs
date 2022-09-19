@@ -1,16 +1,22 @@
-﻿int a = 1;
-int b = 2;
-int c = 6;
-int d = 8;
-int e = 4;
+﻿Console.Clear();
 
-int max = a;
-if(a > max) max = a;
-if(b > max) max = b;
-if(c > max) max = c;
-if(d > max) max = d;
-if(e > max) max = e;
+int xa = 1, ya = 1;
+int xb = 1, yb = 30;
+int xc = 60, yc = 30;
 
-Console.WriteLine("Максимально число - " + max);
+Console.SetCursorPosition(xa, ya);
+Console.WriteLine("*");
+
+Console.SetCursorPosition(xb, yb);
+Console.WriteLine("*");
+
+Console.SetCursorPosition(xc, yc);
+Console.WriteLine("*");
+
+
+
+
+
+
 
 
