@@ -1,11 +1,16 @@
-﻿Console.WriteLine("Введите Ваше имя");
-string username = Console.ReadLine();
+﻿int a = 1;
+int b = 2;
+int c = 6;
+int d = 8;
+int e = 4;
 
-if (username == "tasa"){
-    Console.WriteLine("Вас зовут Tasa");
-    }
-    else {
-        Console.WriteLine("Это не та девочка");
-    }
+int max = a;
+if(a > max) max = a;
+if(b > max) max = b;
+if(c > max) max = c;
+if(d > max) max = d;
+if(e > max) max = e;
+
+Console.WriteLine("Максимально число - " + max);
 
 
