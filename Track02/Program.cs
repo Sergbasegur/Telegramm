@@ -1,4 +1,7 @@
-﻿double a = 12;
-double b = 5;
-Console.WriteLine(a / b);
+﻿int a = new Random().Next(1, 10);
+Console.WriteLine(a);
+int b = new Random().Next(1, 10);
+Console.WriteLine(b);
+int result = a + b;
+Console.WriteLine("ваше случайное число " + result); 
 
