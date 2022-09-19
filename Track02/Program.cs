@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 
-int xa = 1, ya = 1;
+int xa = 30, ya = 1;
 int xb = 1, yb = 30;
 int xc = 60, yc = 30;
 
